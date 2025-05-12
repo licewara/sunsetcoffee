@@ -5,8 +5,11 @@ body{
   background-color: #E0BDBD;
 }
 
+a {
+  text-decoration: none;
+}
 
-/* ===================== Texts ===================== */
+/* ===================== Header ===================== */
 
 h1{
   display:flex;
@@ -20,20 +23,6 @@ h1{
   
 }
 
-.menus{
-  display: flex;
-  justify-content: space-evenly;
-  height: 600px;
-  color: #E86A8D;
-  font-family: "Just Another Hand", sans-serif;
-  font-size: 50px;
-  text-shadow: -1px 0px #580B2A, 0 1px #580B2A, 1px 0 #580B2A, 0 -1px #580B2A;
-  letter-spacing: 3px;
-  background-color: #595B47;
-}
-
-/* ===================== Images ===================== */
-
 .fa-sun{
   color: yellow;
   transform: scale(3);
@@ -41,3 +30,46 @@ h1{
   z-index:-1;
 
 }
+
+
+/* ===================== Main Blocks ===================== */
+
+.blocks{
+  display: flex;
+  justify-content: space-evenly;
+  height: 600px;
+  color: #E86A8D;
+  font-family: "Just Another Hand", sans-serif;
+  font-size: 50px;
+  text-shadow: -1px 0px #580B2A, 0 1px #580B2A, 1px 0 #580B2A, 0 -1px #580B2A;
+}
+
+#menu{
+  text-align: center;
+  background-color: #595B47;
+  width: 300px;
+  height: 550px;
+}
+
+#potd{
+  text-align: center;
+  background-color: #595B47;
+  width: 300px;
+  height: 550px;
+}
+
+#playlist{
+  text-align: center;
+  background-color: #595B47;
+  width: 300px;
+  height: 550px;
+}
+
+.blocktext{
+  display: block;
+  margin-top: 10px;
+  font-size: 110%;
+}
+
+
+
