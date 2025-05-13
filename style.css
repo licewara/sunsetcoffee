@@ -55,15 +55,19 @@ h1{
 
 #items-menu{
   max-height: 350px;
-  margin-top: 30px;
+  margin-top: 10px;
   overflow-y: auto;
   font-size: 40px;
   color: #CD7B7B;
 
 }
 
-.topline{
-  max-height: 3px;
+.pinkline{
+  height: 4px;
+  width: 80%;
+  background-color: pink;
+  margin: 10px auto;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar{
