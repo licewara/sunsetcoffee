@@ -27,7 +27,6 @@ h1{
   color: yellow;
   transform: scale(3);
   text-shadow: -1px 0px orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
-  z-index:-1;
 
 }
 
