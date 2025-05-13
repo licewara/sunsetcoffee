@@ -94,9 +94,6 @@ ul{
   margin-left: -20px;
 }
 
-#coin {
-  font-size: 25px;
-}
 #potd{
   text-align: center;
   background-color: #595B47;
@@ -131,6 +128,16 @@ ul{
   height: 550px;
 }
 
+iframe{
+  margin-top: 25px;
+  width: 220px;
+  height: 380px;
+}
+
+iframe:hover{
+  transform: scale(1.02);
+  transition: 0.3s;
+}
 .blocktext{
   display: block;
   margin-top: 10px;
